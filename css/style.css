@@ -1,0 +1,26 @@
+h4,h5,h6,
+h1,h2,h3{margin-top: 0}
+ul,ol{margin: 0}
+p{margin: 0}
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    background: #000;
+    overflow-x: hidden;
+}
+nav.top1.navbar.navbar-default.navbar-static-top {
+    background-color:rgb(6, 217, 149);
+}
+.navbar-default .navbar-toggle {
+    border-color:#000;
+    background-color:#000 !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-brand {
+    color: #fff !important;
+    font-size: 30px;
+    font-weight: 500;
+}
