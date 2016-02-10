@@ -9,6 +9,135 @@ html,body{
     background: #000;
     overflow-x: hidden;
 }
+/*==========================登录界面的相关的代码========================*/
+.login{
+    background: none;
+    padding: 0;
+    margin: 11em 0 0 0;
+}
+.login-logo{
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0;
+}
+h2.form-heading{
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+}
+body#login{
+    background: url(../images/bg.jpg)no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+    min-height:850px;
+}
+.app-cam{
+    /*将登录按钮和输入框居中*/
+    width: 22%;
+    margin: 3em auto auto auto;
+}
+.app-cam input[type="text"]{
+    width: 100%;
+    padding: 15px;
+    color: #999;
+    font-size: 0.85em;
+    outline: none;font-weight: 300;
+    border: none;
+    background: #222224;
+    margin: 0 0 1em 0;border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.app-cam input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    color:#999;
+    font-size: 0.85em;
+    outline: none;
+    font-weight: 300;
+    border: none;
+    background:#222224;
+    margin:0 0 1em 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.app-cam input[type="submit"], .btn-success1{
+    font-size: 14px;
+    font-weight: 300 !important;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    background: rgb(6, 217, 149);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    text-transform: uppercase;
+}
+.app-cam input[type="submit"]:hover, .btn-success1:hover {
+    background: rgb(1, 200, 136);
+}
+.facebook{
+    background-color:#3b5998 !important;
+    color: #ffffff !important;
+}
+.twitter {
+    background-color:#00aced !important;
+    color: #ffffff !important;
+}
+.login-social-link {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+ul.new {
+    margin:2em 0 0 0;
+    list-style:none;
+    padding:0;
+}
+ul.new li.new_left{
+    float: left;
+}
+ul.new li.new_left p, p.sign{
+    font-weight:300;
+}
+p.sign a, ul.new li.new_left p a{
+    color:#000;
+}
+ul.new li.new_right{
+    float: right;
+}
+.app-cam p {
+    color: #000;
+    font-size: 14px;
+}
+.copy_layout{
+    padding: 1.5em 0;
+    text-align: center;
+    margin: 4em 0 0 0;
+}
+
+/*头部导航的css*/
 nav.top1.navbar.navbar-default.navbar-static-top {
     background-color:rgb(6, 217, 149);
 }
