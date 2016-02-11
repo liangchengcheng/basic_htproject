@@ -109,7 +109,6 @@ body#login{
     margin-bottom: 15px;
     width: 100%;
 }
-
 ul.new {
     margin:2em 0 0 0;
     list-style:none;
@@ -136,8 +135,27 @@ ul.new li.new_right{
     text-align: center;
     margin: 4em 0 0 0;
 }
+/*======================================注册界面的css======================*/
+.form-signin a, .registration, .login-body label {
+    margin: 1em 0 0 0;
+    font-weight: 300;
+    font-size: 0.85em;
+    text-align:center;
+}
+.radios input[type="radio"] {
+    margin: 4px 0 0 0;
+    vertical-align: top;
+    cursor: pointer;
+    color:#fff;
+}
+.radios label:first-child {
+    margin-left: 0;
+}
+.radios label{
+    margin-left: 15px;
+}
 
-/*头部导航的css*/
+/*======================================头部导航的css======================*/
 nav.top1.navbar.navbar-default.navbar-static-top {
     background-color:rgb(6, 217, 149);
 }
